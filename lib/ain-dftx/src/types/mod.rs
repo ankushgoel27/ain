@@ -26,7 +26,7 @@ use crate::custom_tx::CustomTxType;
 
 pub type Token = String;
 pub type Currency = String;
-pub type Weightage = u8;
+pub type Weightage = u32;
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum DfTx {
